@@ -7103,20 +7103,24 @@ public static Map getAppDuplTypes() { return appDuplicationTypesMapFLD }
         "A32DOYMUN6DTXA" : [ c: [ "a", "t" ], i: "echo_dot_gen3",  n: "Echo Dot (Gen3)" ],
         "A1RABVCI4QCIKC" : [ c: [ "a", "t" ], i: "echo_dot_gen3", n: "Echo Dot (Gen3)" ],
         "A3RMGO6LYLH7YN" : [ c: [ "a", "t" ], i: "echo_dot_gen4",  n: "Echo Dot (Gen4)" ],
+  	     // Modded JAS 12-22-2024 Fix incorrect model Identity
+		"A4ZXE0RM7LQ7A" : [ c: [ "a", "t" ], i: "echo_dot_gen5", n: "Echo Dot (Gen5)" ],
         "A2DS1Q2TPDJ48U" : [ c: [ "a", "t" ], i: "echo_dot_clock_gen5",  n: "Echo Dot Clock (Gen5)" ],
         "A2H4LV5GIZ1JFT" : [ c: [ "a", "t" ], i: "echo_dot_clock_gen4",  n: "Echo Dot Clock (Gen4)" ],
         "A2U21SRK4QGSE1" : [ c: [ "a", "t" ], i: "echo_dot_clock_gen4",  n: "Echo Dot Clock (Gen4)" ],
         
         // Amazon Echo Spot's
         "A10A33FOX2NUBK" : [ c: [ "a", "t" ], i: "echo_spot_gen1", n: "Echo Spot" ],
-        "A3EH2E0YZ30OD6" : [ c: [ "a", "t" ], i: "echo_spot_gen1", n: "Echo Spot (Gen2)" ],
+        // modded from notations off HE community board 8-15-25
+        "A3EH2E0YZ30OD6" : [ c: [ "a", "t" ], i: "echo_spot_gen2", n: "Echo Spot 2" ],
 
         // Amazon Echo Show's
         "A1NL4BVLQ4L3N3" : [ c: [ "a", "t" ], i: "echo_show_gen1", n: "Echo Show (Gen1)" ],
         "AWZZ5CVHX2CD"   : [ c: [ "a", "t" ], i: "echo_show_gen2", n: "Echo Show (Gen2)" ],
         "A4ZP7ZC4PI6TO"  : [ c: [ "a", "t" ], i: "echo_show_5", n: "Echo Show 5 (Gen1)" ],
         "A1XWJRHALS1REP" : [ c: [ "a", "t" ], i: "echo_show_5", n: "Echo Show 5 (Gen2)" ],
-        "A4ZXE0RM7LQ7A" : [ c: [ "a", "t" ], i: "echo_show_5", n: "Echo Show 5 (Gen5)" ],
+		// Modded JAS 12-22-2024 
+        // "A4ZXE0RM7LQ7A" : [ c: [ "a", "t" ], i: "echo_show_5", n: "Echo Show 5 (Gen5)" ],
         "A1Z88NGR2BK6A2" : [ c: [ "a", "t" ], i: "echo_show_8", n: "Echo Show 8 (Gen1)" ],
         "A15996VY63BQ2D" : [ c: [ "a", "t" ], i: "echo_show_8", n: "Echo Show 8 (Gen2)" ],
         "AIPK7MM90V7TB"  : [ c: [ "a", "t" ], i: "echo_show_10_gen3", n: "Echo Show 10 (Gen3)" ],
